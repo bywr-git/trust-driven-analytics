@@ -36,6 +36,16 @@ def _issue(
 
 def run_data_quality_checks(data: pd.DataFrame) -> list[dict]:
     """Inspect source data and return evidence records; never mutate input."""
+    if data.empty:
+        return [
+            _issue(
+                "dataset_not_empty",
+                "INCONCLUSIVE",
+                "Dataset contains no rows; data-quality checks cannot "
+                "establish data validity.",
+            )
+        ]
+
     results = []
 
     missing_columns = sorted(REQUIRED_COLUMNS - set(data.columns))
