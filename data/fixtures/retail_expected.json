@@ -1,0 +1,20 @@
+﻿{
+  "dataset": "retail_sales_v1",
+  "currency": "unspecified",
+  "expected": {
+    "transaction_count": 8,
+    "total_quantity": 16,
+    "total_sales": 159.00,
+    "total_cost": 94.00,
+    "total_profit": 65.00,
+    "monthly_sales": {
+      "2026-01": 86.00,
+      "2026-02": 73.00
+    },
+    "product_sales": {
+      "Mug": 50.00,
+      "Notebook": 60.00,
+      "Pen": 49.00
+    }
+  }
+}

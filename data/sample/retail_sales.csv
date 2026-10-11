@@ -1,0 +1,9 @@
+﻿order_id,order_date,product,category,quantity,unit_price,unit_cost
+O001,2026-01-03,Mug,Home,2,10.00,6.00
+O002,2026-01-08,Notebook,Stationery,1,15.00,9.00
+O003,2026-01-14,Pen,Stationery,3,7.00,4.00
+O004,2026-01-21,Notebook,Stationery,2,15.00,9.00
+O005,2026-02-02,Mug,Home,1,10.00,6.00
+O006,2026-02-09,Pen,Stationery,4,7.00,4.00
+O007,2026-02-16,Notebook,Stationery,1,15.00,9.00
+O008,2026-02-23,Mug,Home,2,10.00,6.00
